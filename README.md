@@ -1,4 +1,4 @@
-# Authorship Attribution on Tweets - README
+# Authorship Attribution on Tweets
 
 ## Project Overview
 This project is an assignment for the CmpE544 Pattern Recognition course. The aim is to determine the author of a given tweet using machine learning techniques, focusing on both closed set and open set approaches. Closed set attribution involves known authors during training and testing, while open set attribution includes unknown authors at test time.
