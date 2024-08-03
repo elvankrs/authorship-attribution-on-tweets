@@ -15,6 +15,8 @@ Preprocessing steps include:
 We use Term Frequency-Inverse Document Frequency (TF-IDF) for feature extraction. Both character-level 4-grams and word-level n-grams are utilized to capture different aspects of the tweets.
 
 ## Model
+For the closed set scenario, we train different classifiers to determine the best performing model. These classifiers include Naive Bayes, Support Vector Machines (SVM), Gaussian Mixture Models (GMM), Random Forest, and CatBoost.
+
 For the open set approach, we modify the k-Nearest Neighbors (kNN) algorithm to include a reject option based on distance thresholds. This allows the model to reject samples from unknown authors. Various threshold percentiles and number of neighbors (k) are experimented with to optimize performance.
 
 ## Experiments
