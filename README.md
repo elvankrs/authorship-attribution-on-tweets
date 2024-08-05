@@ -4,7 +4,7 @@
 This project is an assignment for the CmpE544 Pattern Recognition course. The aim is to determine the author of a given tweet using machine learning techniques, focusing on both closed set and open set approaches. Closed set attribution involves known authors during training and testing, while open set attribution includes unknown authors at test time.
 
 ## Dataset
-The [Sentiment140](http://help.sentiment140.com/home) dataset is used for this project. It contains 1.6 million tweets. For this task, we select the top 50 users with the most tweets, ensuring each user has more than 150 tweets. The dataset is divided into training, validation, and test sets with 75, 35, and 20 tweets per user, respectively. An additional 3157 tweets from unknown authors are added for the open set approach.
+The [Sentiment140](http://help.sentiment140.com/home) dataset is used for this project. It contains 1.6 million tweets. For this task, we select the top 50 users with the most tweets, ensuring each user has more than 150 tweets. The dataset is divided into training, validation, and test sets with 75, 35, and 20 tweets per user, respectively. An additional 3k tweets from unknown authors are added for the open set approach.
 
 ## Preprocessing
 Preprocessing steps include:
